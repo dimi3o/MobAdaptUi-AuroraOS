@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.bmstu.MobAdaptUi
+Exec=/usr/bin/ru.bmstu.MobAdaptUi
+Name=MobAdaptUi
+Name[ru]=MobAdaptUi
+
+[X-Application]
+Permissions=Sensors;Pictures
+OrganizationName=ru.bmstu
+ApplicationName=MobAdaptUi
+ExecDBus=/usr/bin/ru.bmstu.MobAdaptUi
