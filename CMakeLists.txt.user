@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.15.2, 2024-06-21T18:17:45. -->
+<!-- Written by QtCreator 4.15.2, 2024-06-21T18:42:06. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -381,7 +381,9 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SignTools.RpmSignExternalStep</value>
-      <value type="bool" key="SignTools.UseDefaultValues">true</value>
+      <value type="QString" key="SignTools.Cert">C:\Users\bmstu\.cert\packages-cert-BMSTU.pem</value>
+      <value type="QString" key="SignTools.Key">C:\Users\bmstu\.cert\key.pem</value>
+      <value type="bool" key="SignTools.UseDefaultValues">false</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.3">
       <value type="QString" key="MerProcessStep.Arguments">--sdk --silent</value>

@@ -6,8 +6,8 @@ CoverBackground {
 
     CoverTemplate {
         objectName: "applicationCover"
-        primaryText: "App"
-        secondaryText: qsTr("MobAdaptUi")
+        primaryText: "Demo"
+        secondaryText: qsTr("Adaptive UI via DQN")
         icon {
             source: Qt.resolvedUrl("../icons/MobAdaptUi.svg")
             sourceSize { width: icon.width; height: icon.height }
