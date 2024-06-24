@@ -18,6 +18,8 @@ qt5_add_translation(QmFiles ${TsFiles})
 
 set(SOURCES
     src/main.cpp
+    src/stringobject.h
+    src/stringobject.cpp
 )
 
 set(CMAKE_SKIP_RPATH FALSE)

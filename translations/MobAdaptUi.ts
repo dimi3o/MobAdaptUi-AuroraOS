@@ -11,8 +11,8 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="68"/>
         <source>#descriptionText</source>
-        <translation>&lt;p&gt;Adaptive UI via DQN.
-(C) Dmitry Vidmanov, BMSTU IU-3.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Adaptive UI via DQN.&lt;/p&gt;
+&lt;p&gt;(C) Dmitry Vidmanov, BMSTU IU-3.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
