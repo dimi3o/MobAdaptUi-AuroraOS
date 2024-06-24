@@ -29,21 +29,6 @@ Page {
                 wrapMode: Text.WordWrap
                 text: qsTr("#descriptionText")
             }
-
-            SectionHeader {
-                objectName: "licenseHeader"
-                text: qsTr("3-Clause BSD License")
-            }
-
-            Label {
-                objectName: "licenseText"
-                anchors { left: parent.left; right: parent.right; margins: Theme.horizontalPageMargin }
-                color: palette.highlightColor
-                font.pixelSize: Theme.fontSizeSmall
-                textFormat: Text.RichText
-                wrapMode: Text.WordWrap
-                text: qsTr("#licenseText")
-            }
         }
     }
 }
