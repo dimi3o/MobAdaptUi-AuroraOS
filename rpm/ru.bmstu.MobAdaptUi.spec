@@ -11,8 +11,6 @@ BuildRequires:  pkgconfig(auroraapp)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
-BuildRequires:  cmake
-BuildRequires:  ninja
 
 %description
 Adaptive UI via DQN.
@@ -21,17 +19,8 @@ Adaptive UI via DQN.
 %prep
 %autosetup
 
-%build
-%cmake -GNinja -DCMAKE_SYSTEM_PROCESSOR=%{_arch} -DBUILD_LIST=core,imgcodecs
-%ninja_build
-
 %install
 %ninja_install
-
-rm -rf %{buildroot}/%{_bindir}/*ncnn*
-
-%define __requires_exclude ^(libncnn.*|libncnnd.*).*$
-%define __provides_exclude_from ^%{_datadir}/%{name}/lib/.*$
 
 %files
 %defattr(-,root,root,-)

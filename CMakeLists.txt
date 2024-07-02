@@ -13,8 +13,6 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(short_name MobAdaptUi)
 
-add_subdirectory(ncnn)
-
 file(GLOB TsFiles "translations/*.ts")
 qt5_add_translation(QmFiles ${TsFiles})
 
@@ -22,6 +20,8 @@ set(SOURCES
     src/main.cpp
     src/stringobject.h
     src/stringobject.cpp
+    src/neuron.h
+    src/neuron.cpp
 )
 
 set(CMAKE_SKIP_RPATH FALSE)
