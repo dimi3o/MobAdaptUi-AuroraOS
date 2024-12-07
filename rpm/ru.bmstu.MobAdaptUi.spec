@@ -19,7 +19,16 @@ Adaptive UI via DQN.
 %prep
 %autosetup
 
+%build
+%cmake -GNinja
+%ninja_build
+
 %install
+
+mkdir -p %{buildroot}/%{_datadir}/%{name}/lib/
+cp $RPM_SOURCE_DIR/../trainingData.txt %{buildroot}/%{_datadir}/%{name}/lib/
+chmod 600 %{buildroot}/%{_datadir}/%{name}/lib/trainingData.txt
+
 %ninja_install
 
 %files
