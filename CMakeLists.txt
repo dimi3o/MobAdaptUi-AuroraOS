@@ -17,11 +17,15 @@ file(GLOB TsFiles "translations/*.ts")
 qt5_add_translation(QmFiles ${TsFiles})
 
 set(SOURCES
+    src/utilityservice.h
+    src/utilityservice.cpp
     src/main.cpp
     src/stringobject.h
     src/stringobject.cpp
     src/neuron.h
     src/neuron.cpp
+    src/neural-net.h
+    src/neural-net.cpp
 )
 
 set(CMAKE_SKIP_RPATH FALSE)
