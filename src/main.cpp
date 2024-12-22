@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    TrainingData trainData("/usr/share/ru.template.untitled2/lib/trainingData.txt");
+    TrainingData trainData("/usr/share/ru.bmstu.MobAdaptUi/lib/trainingData.txt");
     //e.g., {3, 2, 1 }
     vector<unsigned> topology;
     //topology.push_back(3);
